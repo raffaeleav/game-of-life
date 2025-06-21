@@ -61,7 +61,7 @@ make
 ```
 3) Run the executable
 ```bash
-mpirun --allow-run-as-root -np <#processes> bin/gameoflife
+mpirun --allow-run-as-root -np <number-of-processes> bin/gameoflife
 ```
 
 
