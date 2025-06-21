@@ -31,7 +31,7 @@
 
 ## Requirements 
 - [Docker](https://www.docker.com)
-- [colima](https://github.com/abiosoft/colima)
+- [colima](https://github.com/abiosoft/colima) (colima usage in start_mpi_container.sh is required for Apple Silicon chipsets, but can be omitted on other architectures)
 
 
 ## Project structure
