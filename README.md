@@ -13,7 +13,6 @@
 - [Preview](#Preview)
 - [Requirements](#Requirements)
 - [How to replicate](#How-to-replicate)
-- [Built with](#Built-with)
 
 
 ## Overview 
@@ -46,7 +45,3 @@ make
 ```bash
 mpirun --allow-run-as-root -np <number-of-processes> bin/gameoflife
 ```
-
-
-## Built with
-- [Open MPI](https://www.open-mpi.org) - used for development using the MPI standard
