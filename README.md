@@ -12,7 +12,6 @@
 - [Overview](#Overview)
 - [Preview](#Preview)
 - [Requirements](#Requirements)
-- [Project structure](#Project-structure)
 - [How to replicate](#How-to-replicate)
 - [Built with](#Built-with)
 
@@ -32,22 +31,6 @@
 ## Requirements 
 - [Docker](https://www.docker.com)
 - [colima](https://github.com/abiosoft/colima) (colima usage in start_mpi_container.sh is required for Apple Silicon chipsets, but can be omitted on other architectures)
-
-
-## Project structure
-```
-game-of-life/
-├── bin                     # Executable
-├── build                   # Intermediate build files
-├── include                 # Header files
-├── scripts                 # Scripts for mpi container setup
-├── src                     # C source files
-│   ├── main.c              
-│   └── *.c
-├── .gitignore
-├── ...
-└── README.md
-```          
 
 
 ## How to replicate
